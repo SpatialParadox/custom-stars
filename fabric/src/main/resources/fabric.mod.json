@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "icon": "icon.png",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "com.bespectacled.customstars.fabric.CustomStarsFabric"
