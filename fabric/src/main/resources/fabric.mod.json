@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://github.com/SpatialParadox/",
-    "sources": "https://github.com/SpatialParadox/custom-stars"
+    "sources": "https://github.com/SpatialParadox/custom-stars",
+    "issues": "https://github.com/SpatialParadox/custom-stars/issues"
   },
   "license": "MIT",
   "icon": "icon.png",
