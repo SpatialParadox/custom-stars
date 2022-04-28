@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[40,)"
+issueTrackerURL = "https://github.com/SpatialParadox/custom-stars/issues"
+license = "MIT"
+
+[[mods]]
+modId = "customstars"
+version = "${version}"
+displayName = "Custom Stars"
+authors = "b3spectacled, Condolence"
+description = '''
+Simple configurable stars.
+'''
+logoFile = "icon.png"
+
+[[dependencies.customstars]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.customstars]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.18.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.customstars]]
+modId = "architectury"
+mandatory = true
+versionRange = "[4.2.50,)"
+ordering = "AFTER"
+side = "BOTH"

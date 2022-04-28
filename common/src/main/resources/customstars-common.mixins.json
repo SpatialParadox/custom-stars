@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "com.bespectacled.customstars.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "MixinClientWorld",
+    "MixinWorldRenderer",
+    "MixinWorldRendererInvoker"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
